@@ -113,7 +113,7 @@
                 location.coords.latitude,
                 location.coords.longitude
             );
-            startingpoint = L.marker(latlng).bindPopup("Current Location").openOn(map).addTo(map);
+            startingpoint = L.marker(latlng).bindPopup("Current Location").addTo(map);
             $('#lat').html(latlng.lat)
             $('#long').html(latlng.lng)
         });
