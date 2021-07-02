@@ -31,7 +31,7 @@
                 <p data-aos="fade-down">
                     A travel fee predictor using <br>Multiple Linear Regression.
                 </p>
-                <a href="predict.html"><button class="btn-try-now">Let's Go</button></a>
+                <a href="predict.php"><button class="btn-try-now">Let's Go</button></a>
             </div>
             <div class="col-2">
                 <img src="./src/images/undraw_destinations_fpv7.png" data-aos="fade-up" />
