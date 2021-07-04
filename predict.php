@@ -222,7 +222,11 @@
             persons = $('#field').serialize();
 
             if ($('#field').val() != '') {
-                getRequest(distance, persons);
+                if(persons.indexOf('.') >= 0) {
+                   getRequest(distance = 0, persons = 0);
+                }else{
+                   getRequest(distance, persons);
+                }
             } else {
                 alert('Please specify the numbers of persons.')
             }
