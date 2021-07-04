@@ -213,6 +213,18 @@
                 e.preventDefault();
             }
         })
+
+        document.getElementById('field').addEventListener('keydown', function(e) {
+            var invalidChars = [
+                    "-",
+                    "+",
+                    "e",
+                    "."
+                ];
+            if (invalidChars.includes(e.key)) {
+                e.preventDefault();
+            }
+        })
         $('#field').on('change keyup', () => {
 
             persons = $('#field').serialize();
