@@ -214,16 +214,8 @@
             }
         })
 
-        document.getElementById('field').addEventListener('keydown', function(e) {
-            var invalidChars = [
-                    "-",
-                    "+",
-                    "e",
-                    "."
-                ];
-            if (invalidChars.includes(e.key)) {
-                e.preventDefault();
-            }
+        document.getElementById('field').addEventListener('input', function(e) {
+           this.value = this.value.replace(/[e\+\-\.]/gi, "");
         })
         $('#field').on('change keyup', () => {
 
