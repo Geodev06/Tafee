@@ -158,7 +158,7 @@
                 var summary = routes[0].summary;
                 distance = (summary.totalDistance / 1000)
 
-                $('#distance').html(distance.toFixed(2))
+                $('#distance').html(distance.toFixed(2), 'km')
                 $('#time').html(Math.round((summary.totalTime % 3600) / 60) + 'Minutes')
 
                 if ($('#field').val() != '') {
