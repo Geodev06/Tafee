@@ -107,7 +107,7 @@
             tileSize: 512,
             maxZoom: 18,
             zoomOffset: -1,
-            id: 'mapbox/streets-v11',
+            id: 'mapbox/outdoors-v11',
             accessToken: 'pk.eyJ1IjoiYWdlb2Fnbm90ZSIsImEiOiJja3FsMXd1b3QwbWhtMnJtdnJzbmIyMTZoIn0.DYd5ThnC8XLkxLH3Bfj7ag'
         }).addTo(map);
         // get current coordiantes
