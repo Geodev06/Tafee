@@ -108,7 +108,7 @@
             maxZoom: 18,
             zoomOffset: -1,
             id: 'mapbox/outdoors-v11',
-            accessToken: 'pk.eyJ1IjoiYWdlb2Fnbm90ZSIsImEiOiJja3FsMXd1b3QwbWhtMnJtdnJzbmIyMTZoIn0.DYd5ThnC8XLkxLH3Bfj7ag'
+            accessToken: 'pk.eyJ1IjoiYWdlb2Fnbm90ZSIsImEiOiJjbDloNjZqOTAxOGxyM3FteTIyNHRmMzZ2In0.oLZTFCvyiwBCxI__Xs6ZcQ'
         }).addTo(map);
         // get current coordiantes
         var startingpoint, endpoint;
